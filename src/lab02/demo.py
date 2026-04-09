@@ -1,12 +1,13 @@
 import sys
 import os
 
-# Добавляем папку src в пути поиска
+# Добавляем src в путь
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# Добавляем lab01 в путь (чтобы найти validate)
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lab01'))
 
-# Теперь можно импортировать из lab01
 from lab01.model import Product
-from collection import ProductCatalog
+from lab02.collection import ProductCatalog
 
 def demo():
     # Создание товаров
