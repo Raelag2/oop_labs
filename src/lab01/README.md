@@ -55,6 +55,7 @@ def __eq__(self, other) -> bool:
     if not isinstance(other, Product):
         return False
     return self._product_id == other._product_id
+```
 
 ## Вопрос №5. Есть ли состояния?
 
