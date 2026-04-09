@@ -69,6 +69,7 @@ def __eq__(self, other) -> bool:
 ```python
 product.activate()   # сделать товар активным
 product.deactivate() # снять товар с продадажи
+```
 
 **Сценарий 1**
 
