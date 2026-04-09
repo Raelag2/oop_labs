@@ -1,0 +1,11 @@
+# env
+.venv
+
+# ds
+.DS_Store
+
+# scripts
+_scripts/__pycache__
+
+src/lab01/__pycache__
+src/lab01/test.py
