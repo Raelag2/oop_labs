@@ -30,32 +30,32 @@
 
 **Скриншот 1**
 
-![01](https://github.com/Raelag2/oop_labs/blob/main/images/lab05/1.png)
+![01](https://github.com/Raelag2/oop_labs/blob/main/images/lab05/1.jpeg)
 
 **Скриншот 2**
 
-![01](https://github.com/Raelag2/oop_labs/blob/main/images/lab05/2.png)
+![01](https://github.com/Raelag2/oop_labs/blob/main/images/lab05/2.jpeg)
 
 **Скриншот 3**
 
-![03](https://github.com/Raelag2/oop_labs/blob/main/images/lab05/3.png)
+![03](https://github.com/Raelag2/oop_labs/blob/main/images/lab05/3.jpeg)
 
 **Скриншот 4**
 
-![04](https://github.com/Raelag2/oop_labs/blob/main/images/lab05/4.png)
+![04](https://github.com/Raelag2/oop_labs/blob/main/images/lab05/4.jpeg)
 
 **Скриншот 5**
 
-![05](https://github.com/Raelag2/oop_labs/blob/main/images/lab05/5.png)
+![05](https://github.com/Raelag2/oop_labs/blob/main/images/lab05/5.jpeg)
 
 **Скриншот 6**
 
-![06](https://github.com/Raelag2/oop_labs/blob/main/images/lab05/6.png)
+![06](https://github.com/Raelag2/oop_labs/blob/main/images/lab05/6.jpeg)
 
 **Скриншот 7**
 
-![07](https://github.com/Raelag2/oop_labs/blob/main/images/lab05/7.png)
+![07](https://github.com/Raelag2/oop_labs/blob/main/images/lab05/7.jpeg)
 
 **Скриншот 8**
 
-![08](https://github.com/Raelag2/oop_labs/blob/main/images/lab05/8.png)
+![08](https://github.com/Raelag2/oop_labs/blob/main/images/lab05/8.jpeg)
