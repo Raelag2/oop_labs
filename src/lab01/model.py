@@ -1,4 +1,4 @@
-from validate import validate_name, validate_price, validate_discount, validate_remains
+from .validate import validate_name, validate_price, validate_discount, validate_remains
 
 class Product:
     currency: str = "RUB"

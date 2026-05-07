@@ -1,10 +1,5 @@
-"""
-Производные классы от Product
-"""
-
-from base import Product
+from lab01.model import Product
 from datetime import datetime
-
 
 class FoodProduct(Product):
     """Продукты питания"""
@@ -50,7 +45,6 @@ class FoodProduct(Product):
     
     def __str__(self):
         return f"{self._name} - {self._price} руб. | Годен до: {self._expiration_date.strftime('%d.%m.%Y')}"
-
 
 class DigitalProduct(Product):
     """Цифровые товары"""
@@ -98,3 +92,5 @@ class DigitalProduct(Product):
     
     def __str__(self):
         return f"{self._name} - {self._price} руб. | Ключ: {self._license_key[:8]}..."
+
+
