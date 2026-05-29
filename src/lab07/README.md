@@ -20,16 +20,29 @@
 
 ## 3. Демонстрация работы
 
-### Сценарий 1: TypedCollection[T] (Displayable)
+### Сценарий 1: TypedCollection[T] (Generic коллекция)
 
-В этом сценарии создаётся коллекция с ограничением Displayable. В неё добавляются объекты разных типов - Book и VideoGame. Ни один из этих классов не наследуется от протокола Displayable, но оба имеют метод display(). Это демонстрирует принцип структурной типизации: важны методы, а не наследование.
+Создаются коллекции с разными типами данных: строки и объекты Product. Это демонстрирует, что один и тот же класс может работать с любым типом.
 
-![01](https://github.com/Raelag2/oop_labs/blob/main/images/lab06/1.jpg)
+![01](https://github.com/Raelag2/oop_labs/blob/main/images/lab07/1.jpg)
 
-### Сценарий 2: TypedCollection[S] (Scorable)
+### Сценарий 2: Методы find, filter, map
+
+Демонстрируются методы высшего порядка. find ищет первый подходящий элемент (возвращает элемент или None). filter возвращает список всех подходящих элементов. map преобразует элементы с изменением типа результата (из Product в str и float).
+
+![02](https://github.com/Raelag2/oop_labs/blob/main/images/lab07/2.jpg)
+
+### Сценарий 3: TypedCollection[D] (Displayable)
+
+Создаётся коллекция с ограничением Displayable. В неё добавляются объекты разных типов - Book и VideoGame. Ни один из этих классов не наследуется от протокола Displayable, но оба имеют метод display(). Это демонстрирует принцип структурной типизации: важны методы, а не наследование.
+
+![03](https://github.com/Raelag2/oop_labs/blob/main/images/lab07/3.jpg)
+
+### Сценарий 4: TypedCollection[S] (Scorable)
+
 Этот сценарий показывает, что тот же самый класс TypedCollection может работать с другим ограничением - Scorable. В коллекцию добавляются объекты Book и VideoGame, у которых есть метод score(). Один класс TypedCollection успешно используется с разными протоколами.
 
-![02](https://github.com/Raelag2/oop_labs/blob/main/images/lab06/2.jpg)
+![04](https://github.com/Raelag2/oop_labs/blob/main/images/lab07/4.jpg)
 
 ## 4. Вывод
 

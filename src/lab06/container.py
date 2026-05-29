@@ -26,7 +26,7 @@ S = TypeVar('S', bound=Scorable)
 
 
 class TypedCollection(Generic[T]):
-    """Generic-версия коллекции с типизацией"""
+    """версия коллекции с типизацией"""
     
     def __init__(self) -> None:
         self._items: List[T] = []
